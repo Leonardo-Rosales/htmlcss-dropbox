@@ -65,6 +65,10 @@ p{
     width: 30%;
 }
 
+.col-33{
+    width: calc(100% / 3);
+}
+
 
 /* HEADER */
 
@@ -85,6 +89,7 @@ p{
 .bg-hero{
     background-color: #B4D0E7;
     padding-top: 90px;
+    margin-bottom: 140px;
 }
 
 .bg-hero .col-100 h1{
@@ -99,7 +104,7 @@ p{
 .cta{
     color: white;
     background-color: #0061FF;
-    padding: 8px 12px;
+    padding: 10px 14px;
     display: inline-block;
 }
 
@@ -111,3 +116,84 @@ p{
     font-size: 45px;
 }
 
+.title{
+    padding-bottom: 70px;
+    font-size: 40px;
+}
+
+.radio-month{
+    padding-right: 40px;
+}
+
+.card{
+    margin: 60px 50px 50px 0;
+    
+}
+
+.title-row-plans{
+    padding: 30px 30px 15px;
+}
+
+.title-row-plans,
+.euro{
+    font-weight: 900;
+}
+
+.month{
+    color: #AFAFAF;
+    font-weight: normal;
+    padding-top: 16px;
+    padding-bottom: 45px;
+}
+
+.list-professional{
+    position: relative;
+    padding: 0 30px;
+}
+
+.icon-main{
+    font-size: 15px;
+    padding: 12px 0;
+    text-align: center;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.card .col-100,
+.col-33{
+    border: 1px solid #D9D9D9;
+}
+
+.icon-secondary{
+    position: absolute;
+    left: 15px;
+}
+
+.row-plans span{
+    padding-left: 5px;
+    font-size: 18px;
+}
+
+.row-plans li{
+    padding-bottom: 20px;
+}
+
+.cta-row-plans{
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.list-professional p>a{
+    color: #0C27EF;
+    text-decoration: underline;
+}
+
+.p-border{
+    padding-bottom: 40px;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.title-row-plans{
+    padding-top: 50px;
+}
