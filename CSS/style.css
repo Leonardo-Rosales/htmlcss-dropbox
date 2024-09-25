@@ -26,6 +26,10 @@ html{
     font-family: "Lato", sans-serif;
 }
 
+p{
+    line-height: 22px;
+}
+
 /* layout */
 
 .container-full{
@@ -36,6 +40,7 @@ html{
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 
 .container-sm{
@@ -48,13 +53,25 @@ html{
     flex-wrap: wrap;
 }
 
+.col-100{
+    width: 100%;
+}
+
+.col-70{
+    width: 70%;
+}
+
+.col-30{
+    width: 30%;
+}
+
 
 /* HEADER */
 
 .nav-bar{
     display: flex;
     justify-content: space-between;
-    padding: 0 30px;
+    padding: 40px 30px;
 }
 
 .nav-items{
@@ -62,3 +79,35 @@ html{
     align-items: center;
     gap: 40px;
 }
+
+/* MAIN */
+
+.bg-hero{
+    background-color: #B4D0E7;
+    padding-top: 90px;
+}
+
+.bg-hero .col-100 h1{
+    font-size: 80px;
+    
+}
+
+.hero{
+    padding-bottom: 50px;
+}
+
+.cta{
+    color: white;
+    background-color: #0061FF;
+    padding: 8px 12px;
+    display: inline-block;
+}
+
+.bg-hero .col-30 .cta{
+    margin: 35px 0;
+}
+
+.arrow{
+    font-size: 45px;
+}
+
