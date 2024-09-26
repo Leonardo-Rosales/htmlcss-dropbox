@@ -1,163 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dropbox</title>
-    <link rel="stylesheet" href="./CSS/style.css">
-    <script src="https://kit.fontawesome.com/d731515a0c.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <header>
-        <nav class="container-full nav-bar">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Dropbox</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+			rel="stylesheet"
+		/>
+		<link/>
+        <script src="https://kit.fontawesome.com/d731515a0c.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="./CSS/style.css" />
+	</head>
+	<body>
+		<header class="page-header">
+			<nav class="container-fluid navbar">
+				<div class="row no-gutter">
+					<ul class="menu">
+						<li>
+							<a class="logo-wrapper" href="#">
+								<img class="logo" src="./img/logo-small.png" alt="" />
+							</a>
+						</li>
+						<li>
+							<a href="#">Perché Dropbox</a>
+						</li>
+						<li>
+							<a href="#">Funzioni</a>
+						</li>
+						<li>
+							<a href="#">Piani e Prezzi </a>
+						</li>
+					</ul>
+					<ul class="menu">
+						<li>
+							<a href="#">Supporto</a>
+						</li>
+						<li>
+							<a href="#">Contatta l'ufficio vendite</a>
+						</li>
+						<li>
+							<a href="#">Accedi</a>
+						</li>
+						<li>
+							<a class="btn btn--sm" href="#">Inizia</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<main class="page-content">
+			<section class="hero">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<h1 class="hero__title">
+								Tutto ciò che ti serve per il lavoro, in un unico posto
+							</h1>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-4 hero__content">
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Voluptatibus, obcaecati tempora quasi error ad, eligendi
+								deserunt alias hic, delectus dolorem aut fugiat. Iste,
+								voluptatem ut saepe voluptatum maiores dicta totam magnam,
+								delectus velit.
+							</p>
+							<a class="btn" href="#">Inizia la tua prova gratuita</a>
+							<p>Annulla in qualsiasi momento</p>
+							<span class="hero__icon">
+								<i class="fa-solid fa-arrow-down"></i>
+							</span>
+						</div>
+						<div class="col-8">
+							<img src="./img/jumbo.png" alt="" class="hero__image" />
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="plans">
+				<div class="container-sm">
+					<div class="row">
+						<div class="col-12">
+							<h2 class="main-title-plans">Trova il piano business che fa per te</h2>
+							<div class="toggle-actions">
+								<div>
+									<input id="monthly" checked type="radio" name="bill-rate" />
+									<label for="monthly">Fatturazione mensile</label>
+								</div>
+								<div>
+									<input id="yearly" type="radio" name="bill-rate" />
+									<label for="yearly">Fatturazione Annuale</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<ul class="row">
+						<li class="col-4">
+							<div class="card card-header">
+                                <i class="fa-solid fa-user"></i>
+                                <span>Singolo</span>
+                            </div>
+                            <div class="card card-body">
+                                <div class="plans-data">
+                                    <h2 class="plans-data-title">Professional</h2>
+                                    <div class="price">&euro; 12.00</div>
+                                    <div class="month">/mese</div>
+                                </div>
+                                <ul class="menu">
+                                    <li>
+                                        <span><i class="fa-solid fa-user"></i></span>
+                                        <span>1 utente</span>
+                                    </li>
+                                    <li>
+                                        <span class="icon"><i class="fa-solid fa-folder"></i></span>
+                                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                                    </li>
+                                    <li>
+                                        <span id="icon-share"><i class="fa-solid fa-share-nodes"></i></span>
+                                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quis rerum ab dolorem, animi rem.</span>
+                                    </li>
+                                </ul>
+                                <div class="cta">
+                                    <div class="btn btn-plans">Prova gratis per 30 giorni</div>
+                                    <div class="cta-secondary">oppure <a href="#">acquista ora</a></div>
+                                    <div class="border"></div>
+                                </div>
+                                <div>
+                                    <h3 class="title-check-list">Punti Salientidel piano</h3>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-check"><i class="fa-solid fa-check"></i></span>
+                                            <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, ipsam!</span>
+                                        </li>
+                                        <li>                                           
+                                            <span class="icon-check"><i class="fa-solid fa-check"></i></span>
+                                            <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, ipsam!</span>
+                                        </li>
+                                    </ul>
+                                </div>
 
-            <ul class="nav-items">
-                <li>
-                    <a href="#">
-                        <img src="./img/logo-small.png" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Perchè Dropbox
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Funzioni
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Piani e Prezzi
-                    </a>
-                </li>
-            </ul>
+                            </div>
+						</li>
+                        <li class="col-4">
+							<div class="card card-header">
+                                <i class="fa-solid fa-user"></i>
+                                <span>Singolo</span>
+                            </div>
+                            <div class="card card-body">
+                                <div class="plans-data">
+                                    <h2 class="plans-data-title">Professional</h2>
+                                    <div class="price">&euro; 12.00</div>
+                                    <div class="month">/mese</div>
+                                </div>
+                                <ul class="menu">
+                                    <li>
+                                        <span><i class="fa-solid fa-user"></i></span>
+                                        <span>1 utente</span>
+                                    </li>
+                                    <li>
+                                        <span class="icon"><i class="fa-solid fa-folder"></i></span>
+                                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                                    </li>
+                                    <li>
+                                        <span id="icon-share"><i class="fa-solid fa-share-nodes"></i></span>
+                                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quis rerum ab dolorem, animi rem.</span>
+                                    </li>
+                                </ul>
+                                <div class="cta">
+                                    <div class="btn btn-plans">Prova gratis per 30 giorni</div>
+                                    <div class="cta-secondary">oppure <a href="#">acquista ora</a></div>
+                                    <div class="border"></div>
+                                </div>
+                                <div>
+                                    <h3 class="title-check-list">Punti Salientidel piano</h3>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-check"><i class="fa-solid fa-check"></i></span>
+                                            <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, ipsam!</span>
+                                        </li>
+                                        <li>                                           
+                                            <span class="icon-check"><i class="fa-solid fa-check"></i></span>
+                                            <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, ipsam!</span>
+                                        </li>
+                                    </ul>
+                                </div>
 
-            <ul class="nav-items">
-                <li>
-                    <a href="#">
-                        Supporto
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Contatta l'ufficio vendite
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Accedi
-                    </a>
-                </li>
-                <li>
-                    <a class="cta" href="#">
-                        Inizia
-                    </a>
-                </li>
-            </ul>
+                            </div>
+						</li>
+                        <li class="col-4">
+							<div class="card card-header">
+                                <i class="fa-solid fa-user"></i>
+                                <span>Singolo</span>
+                            </div>
+                            <div class="card card-body">
+                                <div class="plans-data">
+                                    <h2 class="plans-data-title">Professional</h2>
+                                    <div class="price">&euro; 12.00</div>
+                                    <div class="month">/mese</div>
+                                </div>
+                                <ul class="menu">
+                                    <li>
+                                        <span><i class="fa-solid fa-user"></i></span>
+                                        <span>1 utente</span>
+                                    </li>
+                                    <li>
+                                        <span class="icon"><i class="fa-solid fa-folder"></i></span>
+                                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                                    </li>
+                                    <li>
+                                        <span id="icon-share"><i class="fa-solid fa-share-nodes"></i></span>
+                                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quis rerum ab dolorem, animi rem.</span>
+                                    </li>
+                                </ul>
+                                <div class="cta">
+                                    <div class="btn btn-plans">Prova gratis per 30 giorni</div>
+                                    <div class="cta-secondary">oppure <a href="#">acquista ora</a></div>
+                                    <div class="border"></div>
+                                </div>
+                                <div>
+                                    <h3 class="title-check-list">Punti Salientidel piano</h3>
+                                    <ul>
+                                        <li>
+                                            <span class="icon-check"><i class="fa-solid fa-check"></i></span>
+                                            <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, ipsam!</span>
+                                        </li>
+                                        <li>                                           
+                                            <span class="icon-check"><i class="fa-solid fa-check"></i></span>
+                                            <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, ipsam!</span>
+                                        </li>
+                                    </ul>
+                                </div>
 
-        </nav>
-    </header>
-    
-    <main>
-        <section class="bg-hero">
-            <div class="container">
-                <div class="row hero">
-                    <div class="col-100">
-                        <h1>
-                            Tutto ciò che ti serve per <br> il lavoro, in unico posto
-                        </h1>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-30">
-                        <p class="text-hero">
-                            Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archivazione sicuro: è un modo inteliggiente e integrato per ottimizzare il flusso di lavoro esistente.
-                        </p>
-                        <div class="cta">
-                            Inizia la prova gratuita
-                        </div>
-                        <div >
-                            <p>Annulla in qualsiasi momento</p>
-                            <i class="fa-solid fa-arrow-down arrow"></i>
-                        </div>
-                        
-                    </div>
-                    <div class="col-70">
-                        <img src="./img/jumbo.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div class="container-sm">
-                <div class="row row-title-plans">
-                    <div class="col-100">
-                        <h1 class="title">Trova il piano business che fa per te</h1>
-                        <input type="radio" name="" id="">
-                        <span class="radio-month">Fatturazzione mensile</span>
-                        <input type="radio" name="" id="">
-                        <span>Fatturazzione annuale</span>
-                    </div>
-                </div>
-                <div class="row row-plans">
-                    <div class="col-33 card">
-                        <div class="icon-main">
-                            <i class="fa-solid fa-user">
-                            </i>
-                            <span>Singolo</span>
-                        </div>
-                        <h2 class="title-row-plans">Professional</h2>
-                        <ul class="list-professional">
-                            <li class="euro">
-                                &euro; 12.00
-                                <div class="month">/mese</div>
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-user icon-secondary"></i>
-                                <span>1 utente</span>
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-folder icon-secondary"></i>
-                                <span>5 TB di spazione di archivazione sicuro</span>
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-share-nodes icon-secondary"></i>
-                                <span class="share-icon">Funzioni di produttività premium e condivisione file semplice e sicura</span>
-                            </li>
-                            <li class="border-b">
-                                <a class="cta cta-row-plans">
-                                    Prova gratis per 30 giorni
-                                </a>
-                                <p class="p-border">
-                                    oppure <a href="#">acquista ora</a>
-                                </p>
-                            </li>
-                            
-                        </ul>
-                        <h3 class="title-row-plans">Punti Salienti del piano</h3> 
-                        <ul>
-                            <li>
-
-                            </li>
-                            <li>
-
-                            </li>
-                        </ul>   
-                    </div>
-                    <div class="col-33 card"></div>
-                    <div class="col-33 card"></div>
-                    <div class="col-100 card"></div>
-
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer></footer>
-</body>
+                            </div>
+						</li>
+						<li class="col-12">
+							<div class="card">piano</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+		<footer class="page-footer"></footer>
+	</body>
 </html>
