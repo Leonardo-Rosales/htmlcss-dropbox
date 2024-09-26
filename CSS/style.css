@@ -109,7 +109,7 @@ img {
 	margin-top: auto;
 }
 /* PLANs */
-.plans .card {
+.card {
 	border: 1px solid var(--border);
 }
 
@@ -181,6 +181,16 @@ img {
 .cta-secondary > a{
     text-decoration: underline;
     color: #484AF1;
+}
+
+.title-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-btn{
+    padding-bottom: 20px;
 }
 
 /* COMPONENTS */
