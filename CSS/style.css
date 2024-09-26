@@ -63,6 +63,10 @@ img {
 .col-8 {
 	width: calc(8 * 100% / 12);
 }
+.col-20{
+    width: 20%;
+}
+
 /* header */
 .logo {
 	display: block;
@@ -310,6 +314,87 @@ img {
 .clear-logo{
     background-color: #FFD830;
 }
+
+.bg-azure{
+    background-color: #B4D0E7;
+    padding: 130px 0;
+}
+
+.title-bg-azure{
+    color: #61082B;
+    font-size: 35px;
+}
+
+.row-bg-azure{
+    justify-content: space-between;
+    align-items: start;
+    gap: 200px;
+    
+}
+
+.row-bg-azure .btn {
+    border: none;
+    padding: 0 40px;
+}
+
+/* FAQ LAYOUT */
+
+.faq{
+    padding-bottom: 150px;
+}
+
+.title-faq{
+    font-size: 35px;
+    padding-bottom: 70px;   
+}
+
+.list-faq > * {
+    padding: 40px 0;
+}
+
+.list-faq > *{
+    border-bottom: 1px solid var(--black);
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+}
+
+FOOTER{
+    background-color: var(--black);
+    padding: 100px;
+    color: var(--white);
+}
+
+.main-footer{
+    display: flex;
+}
+
+.footer-list{
+    display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.main-footer strong{
+    padding-bottom: 10px;
+}
+
+.title-footer-list{
+    font-weight: 700;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.footer-language{
+    padding-top: 150px;
+    color: #97958D;
+}
+
+
+
 
 /* COMPONENTS */
 .btn {
