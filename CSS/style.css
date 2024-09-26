@@ -183,7 +183,7 @@ img {
     padding-top: 25px;
 }
 
-.cta-secondary > a{
+.cta-secondary, .business-user > a{
     text-decoration: underline;
     color: #484AF1;
 }
@@ -221,6 +221,10 @@ img {
 
 /* BUSINESS LAYOUT */
 
+.business-user{
+    padding-top: 200px;
+}
+
 .title-business,
 .title-card-business{
     font-size: 25px;
@@ -233,6 +237,16 @@ img {
 .title-card-business{
     padding-bottom: 35px;
 }
+
+.info-user{
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+
+
+
+
 /* COMPONENTS */
 .btn {
 	display: inline-block;
