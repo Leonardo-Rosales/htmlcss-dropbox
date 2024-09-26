@@ -4,7 +4,9 @@
 	--light-gray: #f5f5f5;
 	--black: #000000;
 	--white: #ffffff;
-    --border: #DBDBDD
+    --border: #DBDBDD;
+    --light-green: #A2D39B
+    
 }
 * {
 	box-sizing: border-box;
@@ -54,6 +56,9 @@ img {
 }
 .col-4 {
 	width: calc(4 * 100% / 12);
+}
+.col-6 {
+	width: calc(6 * 100% / 12);
 }
 .col-8 {
 	width: calc(8 * 100% / 12);
@@ -221,6 +226,9 @@ img {
 
 /* BUSINESS LAYOUT */
 
+.business{
+    padding-bottom: 150px;
+}
 .business-user{
     padding-top: 200px;
 }
@@ -243,9 +251,65 @@ img {
     padding-bottom: 50px;
 }
 
+/* logo LAYOUT */
+
+.card-logo{
+    aspect-ratio: 1 / 1;
+    background-color: var(--light-green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+}
 
 
+.row-logo{
+    row-gap: 0;
+    
+}
 
+.row-rainbow > *{
+    padding: 0;
+}
+
+.main-logo > * {
+    padding: 45px;
+}
+.design-logo{
+    background-color: var(--light-green);
+}
+
+.arizona-logo{
+    background-color: #61082B;
+}
+
+.florida-logo{
+    background-color: #0093CE;
+}
+
+.topps-logo{
+    background-color: #FF1C1C;
+}
+
+.main-logo{
+    background-color: #F5F5F5;
+}
+
+.world-logo{
+    background-color: #D5001F;
+}
+
+.hearst-logo{
+    background-color: #B4D0E7;
+}
+
+.lonely-logo{
+    background-color: #0D2481;
+}
+
+.clear-logo{
+    background-color: #FFD830;
+}
 
 /* COMPONENTS */
 .btn {
