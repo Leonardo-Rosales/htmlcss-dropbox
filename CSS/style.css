@@ -200,6 +200,10 @@ img {
 
 /* PARTNER LAYOUT */
 
+.partner{
+    padding-bottom: 160px;
+}
+
 .btn-partner.btn{
     background-color: var(--white);
     color: var(--black);
@@ -215,6 +219,20 @@ img {
     padding-top: 50px;
 }
 
+/* BUSINESS LAYOUT */
+
+.title-business,
+.title-card-business{
+    font-size: 25px;
+}
+
+.card-image img{
+    display: block;
+}
+
+.title-card-business{
+    padding-bottom: 35px;
+}
 /* COMPONENTS */
 .btn {
 	display: inline-block;
