@@ -109,6 +109,11 @@ img {
 	margin-top: auto;
 }
 /* PLANs */
+
+.plans{
+    padding-bottom: 140px;
+}
+
 .card {
 	border: 1px solid var(--border);
 }
@@ -191,6 +196,23 @@ img {
 
 .info-btn{
     padding-bottom: 20px;
+}
+
+/* PARTNER LAYOUT */
+
+.btn-partner.btn{
+    background-color: var(--white);
+    color: var(--black);
+    border: 1px solid var(--black);
+    margin-top: 10px;
+}
+
+.info-image > *{
+    padding-bottom: 20px;
+}
+
+.info-image h2{
+    padding-top: 50px;
 }
 
 /* COMPONENTS */
